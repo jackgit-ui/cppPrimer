@@ -39,14 +39,78 @@ int main()
 	//int *p;
 	//if(p)
 	//	std::cout << "ptr is not null" << std::endl;
-	int ival = 1024;
-	int *pi = &ival;
-	int **ppi = &pi;
-	std::cout << "The value of ival\n"
-		  << "direct value: " << ival << std::endl
-		  << "indirect value: " << *pi << std::endl
-		  << "doubly indirect value: " << **ppi << std::endl;
-	std::cout << a << std::endl;
+	//int ival = 1024;
+	//int *pi = &ival;
+	//int **ppi = &pi;
+	//std::cout << "The value of ival\n"
+	//	  << "direct value: " << ival << std::endl
+	//	  << "indirect value: " << *pi << std::endl
+	//	  << "doubly indirect value: " << **ppi << std::endl;
+	//std::cout << a << std::endl;
+	//const int &ri = 900;
+	//std::cout << ri << std::endl;
+	//double dval = 3.14;
+	//int ival = 9;
+	//const int &ri = dval;
+	//ri = 90;
+	//std::cout << ri << std::endl;
+	//const int i = -1, &r = 0;
+	//int *const p1 = nullptr;
+	//int *p2 = p1;
+	//const int *p3;
+	//int n = 900;
+	//p3 = &n;
+	//int i = 9;
+	//const int i2;
+	//i2 = i;
+	//const int &r = i;
+	/* ......*/
+	//int i, *const cp = nullptr;
+	//int *p1, *const p2 = nullptr;
+	//const int ic = 9, &r = ic;
+	//const int *const p3 = nullptr;
+	//const int *p;
+	//i = ic;
+	//p1 = p3;
+	//p1 = &ic
+	//p3 = &ic;
+	//p2 = p1;
+	//ic = *p3;
+	//const int v2 = 0;
+	//int v1 = v2;
+	//int *p1 = &v1, &r1 = v1;
+	//const int *p2 = &v2,  *const p3 = &v2, &r2 = v2;
+	//r1 = v2;
+	//p1 = p2;
+	//p2 = p1;
+	//p1 = p3;
+	//p2 = p3;
+	//int null = 0; 
+	//int *p = null; //null means integer 0
+	//using S = int;
+	//S s = 90;
+	//std::cout << s << std::endl;
+	//int i = 0;
+	//const int ci = i, &cr = ci;
+	//auto b = ci;
+	//auto c = cr;
+	//auto d = &i;
+	//auto e = &ci;
+	//auto &g = ci;
+	//b = 42;
+	//c = 42;
+	//d = 42;
+	//e = 42;
+	//g = 42;
+	int a = 3, b = 4;
+	decltype(a) c = a;
+	std::cout << c << std::endl;
+	decltype((b)) d = a;
+	++c;
+	++d;
+	std::cout << c << d << a << std::endl;
+
+
 
 	return 0;
 }
