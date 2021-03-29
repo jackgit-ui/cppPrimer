@@ -1,5 +1,6 @@
 #include <stdio.h>
 extern int a;
+struct node {};
 int main()
 {
 	//printf("%s\n", "Hello world"
@@ -18,6 +19,8 @@ int main()
 	printf("%d\n", sizeof(p));
 	printf("%d\n", sizeof(q));
 	printf("%d\n", sizeof(r));
-	printf("...%d\n", a);
+	//printf("...%d\n", a);
+	struct node a;
+	//dkjkdjkfdjkfjdkfjdkjfkdjk
 	return 0;
 }
