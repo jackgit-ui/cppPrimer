@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+using namespace std;
 //#include "Sales_item.h"
 extern const int a;
 int main()
@@ -102,13 +104,19 @@ int main()
 	//d = 42;
 	//e = 42;
 	//g = 42;
-	int a = 3, b = 4;
-	decltype(a) c = a;
-	std::cout << c << std::endl;
-	decltype((b)) d = a;
-	++c;
-	++d;
-	std::cout << c << d << a << std::endl;
+	//int a = 3, b = 4;
+	//decltype(a) c = a;
+	//std::cout << c << std::endl;
+	//decltype((b)) d = a;
+	//++c;
+	//++d;
+	//std::cout << c << d << a << std::endl;
+	const string s = "Keep out!";
+	for(auto &c : s)
+	{
+		cout << c;
+	}
+	//cout << s << endl;
 
 
 
