@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cstring>
 #include <vector>
 using namespace std;
 //#include "Sales_item.h"
@@ -123,13 +124,22 @@ int main()
 	//vector<int> vint(10, 1);
 	//auto it1 = vint.begin(), it2 = vint.end();
 	//auto mid = (it2 - it1) / 2;
-	string sa2[10];
-	int ia2[10];
-	int n = 1;
-	int i;
-	cout << "ia2:" << endl;
-	for(i = 0; i < 10; i++)
-		cout << n++ << ": " << ia[i] << endl;
+	//string sa2[10];
+	//int ia2[10];
+	//int n = 1;
+	//int i;
+	//cout << "ia2:" << endl;
+	//for(i = 0; i < 10; i++)
+	//	cout << n++ << ": " << ia[i] << endl;
+	//char ca[] = {'C', '+'};
+	//char ca[] = "hello world";
+	//cout << strlen(ca) << endl;
+	//const char ca[] = {'h', 'e', 'l', 'l', 'o', '\0'};
+	//const char *cp = ca;
+	//while(*cp){
+	//	cout << *cp << endl;
+	//	++cp;
+	//}
 
 
 
