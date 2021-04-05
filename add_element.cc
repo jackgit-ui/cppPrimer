@@ -15,13 +15,13 @@ int main()
 	while(cin >> word)
 		text.push_back(word);
 	//cout << text << endl;
-	unsigned int i = 0;
-	cout << text[0] << text[1] << text[2] << endl;
+	//vector<int>::size_type i = 0;
+	int i = 0;
+	//cout << text[0] << text[1] << text[2] << endl;
 	//while(!text.empty())
 	for(i = 0; i < text.size(); i++)
 	{
 		cout << text[i] << " ";
-		++i;
 		//cout << text[2] << " ";
 	}
 	cout << endl;

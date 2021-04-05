@@ -1,8 +1,11 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 //#include "Sales_item.h"
-extern const int a;
+//extern const int a;
+string sa[10];
+int ia[10];
 int main()
 {
 	//std::cerr << "Oops!!!" << std::endl;
@@ -111,12 +114,22 @@ int main()
 	//++c;
 	//++d;
 	//std::cout << c << d << a << std::endl;
-	const string s = "Keep out!";
-	for(auto &c : s)
-	{
-		cout << c;
-	}
+	//const string s = "Keep out!";
+	//for(auto &c : s)
+	//{
+	//	cout << c;
+	//}
 	//cout << s << endl;
+	//vector<int> vint(10, 1);
+	//auto it1 = vint.begin(), it2 = vint.end();
+	//auto mid = (it2 - it1) / 2;
+	string sa2[10];
+	int ia2[10];
+	int n = 1;
+	int i;
+	cout << "ia2:" << endl;
+	for(i = 0; i < 10; i++)
+		cout << n++ << ": " << ia[i] << endl;
 
 
 

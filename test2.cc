@@ -1,7 +1,8 @@
-#include <stdio.h>
+//#include <stdio.h>
+#include <iostream>
 
 //extern int a = 999;
-
+using namespace std;
 int main()
 {
 	unsigned int cnt = 10;

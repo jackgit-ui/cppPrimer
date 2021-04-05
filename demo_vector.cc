@@ -15,17 +15,20 @@ int main()
 	//	cout << s << endl;
 	//for(auto s : v7)
 	//	cout << s << endl;
-	vector<int> ivec;
-	int n;
-	vector<string> svec;
-	string word;
+	//vector<int> ivec;
+	//int n;
+	//vector<string> svec;
+	//string word;
 	//while(cin >> n)
 	//	ivec.push_back(n);
-	while(cin >> word)
-		svec.push_back(word);
+	//while(cin >> word)
+	//	svec.push_back(word);
 	//cout << ivec[0] << ivec[1] << ivec[2] << endl;
-	cout << svec[0] << svec[1] << ivec[2] << endl;
-
+	//cout << svec[0] << svec[1] << ivec[2] << endl;
+	string s("some thing");
+	for(auto it = s.begin(); it != s.end() && !isspace(*it); ++it)
+		*it = toupper(*it);
+	cout << s << endl;
 
 
 	return 0;
