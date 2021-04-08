@@ -140,6 +140,54 @@ int main()
 	//	cout << *cp << endl;
 	//	++cp;
 	//}
+	//cout << 5 + 10 * 20 / 2 << endl;
+	//vector<int> vec = {8, 2, 3};
+	//cout << *vec.begin() << endl;
+	//cout << *vec.begin() + 1 << endl;
+	//int i = 0;
+	//cout << i << " " << ++i << endl;
+	//cout << 12 / 3 * 4 + 5 * 15 + 24 % 4 / 2 << endl;	
+	//cout << -30 * 3 + 21 / 5 << endl;
+	//cout << -30 + 3 * 21 / 5 << endl;
+	//cout << 30 / 3 * 21 % 5 << endl;
+	//cout << -30 / 3 * 21 % 4 << endl;
+	//int n;
+	//while(cin >> n)
+	//{
+	//	if(n % 2 == 0)
+	//		cout << "偶数" << endl;
+	//	else
+	//		cout << "奇数" << endl;
+	//}
+	//short val = 32767;
+	//val += 1;
+	//cout << val << endl;
+	//char n = 127;
+	//n += 1;
+	//printf("%d\n", n);
+	//int i;
+	//double d;
+	//d = i = 3.5;
+	//i = d = 3.5;
+	//cout << d << " " << i << endl;
+	//double dval; int ival; int *pi;
+	//ival = dval = 0;
+	//pi = 0;
+	//vector<string> str = {"hello"};
+	//auto iter = str.begin();
+	//cout << *iter++ << endl;
+	//(*iter)++;
+	//++*iter;
+	//++iter;
+	//cout << *iter << endl;
+	//if(!iter->empty())
+	//	cout << "kdjkf" << endl;
+	//cout < 60;
+	int grade = 80;
+	string finalgrade = (grade > 90) ? "high pass" : (grade < 60) ? "fail" : (grade < 75) ? "low pass" : "pass";
+	cout << finalgrade << endl;
+
+
 
 
 
