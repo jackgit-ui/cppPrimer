@@ -2,6 +2,7 @@
 #include <string>
 #include <cstring>
 #include <vector>
+#include <exception>
 using namespace std;
 //#include "Sales_item.h"
 //extern const int a;
@@ -209,10 +210,22 @@ int main()
 	//while(int i = 0)
 	//	cout << i << endl;
 	//i = 9;
-	string str1 = "hello";
-	string str2;
-	str2 = str1;
-	cout << str2 << endl;
+	//string str1 = "hello";
+	//string str2;
+	//str2 = str1;
+	//cout << str2 << endl;
+	//for(int i = 0;; ++i)
+	//{
+	//	printf("%d:Hello\n", i);
+		//if(i == 1000)
+		//	break;
+	//}
+	//for(auto n : {1, 2, 3})
+	//	cout << n << endl;
+	//do{
+	//	int n = 9;
+	//}while(n);
+	throw runtime_error("Hello");
 	
 
 
