@@ -13,15 +13,17 @@ int main()
 	//for(int i = 0; i < 5; i++)
 	//	printf("%c ", ca[i]);
 	//printf(".....\n");
-	char s1[] = "Hello ";
-	char s2[] = "World";
-	char s3[1024] = "";
-	puts(s1);
-	puts(s2);
-	strcpy(s3, s1);
-	puts(s3);
-	strcat(s3, s2);
-	puts(s3);
+	//char s1[] = "Hello ";
+	//char s2[] = "World";
+	//char s3[1024] = "";
+	//puts(s1);
+	//puts(s2);
+	//strcpy(s3, s1);
+	//puts(s3);
+	//strcat(s3, s2);
+	//puts(s3);
+	while(1)
+	{}
 
 	return 0;
 }

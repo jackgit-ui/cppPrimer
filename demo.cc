@@ -183,9 +183,37 @@ int main()
 	//if(!iter->empty())
 	//	cout << "kdjkf" << endl;
 	//cout < 60;
-	int grade = 80;
-	string finalgrade = (grade > 90) ? "high pass" : (grade < 60) ? "fail" : (grade < 75) ? "low pass" : "pass";
-	cout << finalgrade << endl;
+	//int grade = 80;
+	//string finalgrade = (grade > 90) ? "high pass" : (grade < 60) ? "fail" : (grade < 75) ? "low pass" : "pass";
+	//cout << finalgrade << endl;
+	//cout << sizeof(int) << endl;
+	//cout << sizeof(long) << endl;
+	//unsigned long ul1 = 3, ul2 = 7;
+	//cout << (ul1 & ul2) << endl;
+	//cout << (ul1 | ul2) << endl;
+	//cout << (ul1 && ul2) << endl;
+	//cout << (ul1 || ul2) << endl;
+	//int *p;
+	//cout << sizeof *p << endl;
+	//cout << sizeof(int) << endl;
+	//int arr[9];
+	//cout << sizeof arr << endl;
+	//string str = "abckdjfkdjdkfjdk";
+	//cout << sizeof str << endl;
+	//cout << sizeof(string) << endl;
+	//int x[10]; int *p = x;
+	//cout << sizeof(x) / sizeof(*x) << endl;
+	//cout << sizeof(p) << " " << sizeof(*p) << " " << sizeof(x) << endl;
+	//cout << sizeof(int *) << " " << sizeof(int) << endl;
+	//cout << sizeof(p) / sizeof(*p) << endl;
+	//while(int i = 0)
+	//	cout << i << endl;
+	//i = 9;
+	string str1 = "hello";
+	string str2;
+	str2 = str1;
+	cout << str2 << endl;
+	
 
 
 
