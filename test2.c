@@ -22,8 +22,16 @@ int main()
 	//puts(s3);
 	//strcat(s3, s2);
 	//puts(s3);
-	while(1)
-	{}
+	//while(1)
+	//{}
+	int n = 9;
+	int *p;
+	//int *q;
+	p = &n;
+	printf("%d\n", *p);
+	*p = 8;
+	//*q = 9;
+	printf("%d\n", *p);
 
 	return 0;
 }

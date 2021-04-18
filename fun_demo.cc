@@ -47,10 +47,76 @@ void swap(int &a, int &b)
 	b = t;
 
 }
+//&
 void reset(int &i)
 {
 	i = 0;
 }
+//*
+void reset(int *i)
+{
+	*i = 0;
+}
+bool isHaveUpper(string s)
+{
+	for(auto ch : s)
+	{
+		if(ch >= 'A' && ch <= 'Z')
+			return true;
+	}
+	return false;
+}
+void toLower(string &str)
+{
+	for(auto &ch : str)
+		ch = tolower(ch);
+}
+void ch(char ch)
+{
+	cout << ch << endl;
+}
+void in(int val)
+{
+	cout << val << endl;
+}
+void cal(double d)
+{
+	cout << d << endl;
+}
+void swapPointer(int **p, int **q)
+{
+	int *t;
+	t = *p;
+	*p = *q;
+	*q = t;
+}
+void print(const int ia[10])
+{
+	for(size_t i = 0; i != 10; ++i)
+		cout << ia[i] << endl;
+}
+void print(int start, const int ia[])
+{
+}
+int &get(int *arry, int index)
+{
+	return arry[index];
+}
+int fact2(int val)
+{
+	if(val != 0)
+		return fact(val - 1) * val;
+	return 1;
+}
+string a(int a)
+{
+	return "Hello";
+}
+int a()
+{
+	return 9;
+}
+
 int main()
 {
 	//cout << getStr() << endl;
@@ -65,10 +131,35 @@ int main()
 	//cout << a << " " << b << endl;
 	//swap(a, b);
 	//cout << a << " " << b << endl;
-	int n = 99;
-	cout << n << endl;
-	reset(n);
-	cout << n << endl;
+	//int n = 99;
+	//cout << n << endl;
+	//reset(n);
+	//cout << n << endl;
+	//string str;
+	//cin >> str;
+	//cout << isHaveUpper("Hello") << endl;
+	//toLower(str);
+	//cout << str << endl;
+	//ch('a');
+	//in(9);
+	//cal(66);
+	//int m = 0, n = 0;
+	//int *p;
+        //int *q;
+	//p = &m;
+	//q = &n;
+	//*p = 3;
+	//*q = 6;
+	//cout << *p << " " << *q << endl;
+	//swapPointer(&p, &q);
+	//cout << *p << " " << *q << endl;
+	//int ia[10] = {1, 2, 3, 4, 5, 6};
+	//print(ia);
+	//cout << get(ia, 5) << endl;
+	//get(ia, 5) = 90;
+	//cout << get(ia, 5) << endl;
+	cout << fact2(5) << endl;
+	
 
 
 
