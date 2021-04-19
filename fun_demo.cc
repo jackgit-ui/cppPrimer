@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cassert>
 using namespace std;
 void print(int, int)
 {
@@ -116,6 +117,16 @@ int a()
 {
 	return 9;
 }
+int sum(int a = 9, int b = 9)
+{
+	cout << __func__ << endl;
+	return a + b;
+}
+string make_plural(size_t ctr, const string &word, const string &ending = "s")
+{
+	return (ctr > 1) ? word + ending : word;
+}
+
 
 int main()
 {
@@ -158,7 +169,17 @@ int main()
 	//cout << get(ia, 5) << endl;
 	//get(ia, 5) = 90;
 	//cout << get(ia, 5) << endl;
-	cout << fact2(5) << endl;
+	//cout << fact2(5) << endl;
+	//cout << sum() << endl;
+	cout << sum(8, 8) << endl;
+	//cout << make_plural(1, "success") << endl;
+	//cout << make_plural(3, "success") << endl;
+	//assert(0 > 1);
+	cout << __func__ << endl;
+	cout << __FILE__ << endl;
+	cout << __LINE__ << endl;
+	cout << __TIME__ << endl;
+	cout << __DATE__ << endl;
 	
 
 

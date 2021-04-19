@@ -15,6 +15,9 @@ void print_vector2(vector<string> str, size_t len)
 	if(len - 1 > 0)
 		print_vector2(str, len - 1);
 	cout << str[len - 1] << endl;
+#ifndef NDEBUG
+	cout << __DATE__ << endl;
+#endif
 }
 int main()
 {
